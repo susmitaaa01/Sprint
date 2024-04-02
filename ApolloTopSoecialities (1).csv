@@ -1,0 +1,132 @@
+"Test Case ID","Test Scenario","Precondition","Test Condition","Test Case Steps","Test Data","Expected Result"
+"<Sequence number>","<Identify test scenarios>","<This cell specifies the state a system and its environment must be in before this specific test case can be run>","<This cell describes what to test for i.e. the condition which is being tested for>","<This cell describes how to test i.e. the detailed testing procedure>","<Mention test data to be used>","<Describe the expected test result>"
+"TC_TopSpecialities_01","TS_TopSpecialities_01","1.User should be on homepage.","To validate that when website url is entered in the browser it opens the website.","1. Open Browser
+2. Enter URL for the website","https://www.apollo247.com/","1.It  should open the landing page of the website."
+"TC_TopSpecialities_02","TS_TopSpecialities_02","1.User should be on homepage.","To validate that website is displyed correctly in all the browsers","
+1. Visit different pages and features of website.
+2. Follow above steps in different browsers
+","","1.It should display the content of  website correctly in all browsers."
+"TC_CovidConsultation_01","TS_CovidConsultation_01","1.User should be on homepage.","To validate the homepage displays the  covid consultation category .","1. Locate and click on the keyword ""Covid Consultation"".
+
+
+
+","","Clicking on the keyword ""Covid Consultation"" should directly navigate the user to ""online covid consultation"" page."
+"TC_CovidConsultation_02","TS_CovidConsultation_02","1.Sort option should be visible","To validate that the presence and functionality of sort"," 1.Click from the sort options
+
+
+","","IT should display the dropdown of nearby  doctors ."
+"TC_CovidConsultation_03","TS_CovidConsultation_03","1.User should be on sort by low to high.","To validate the presence and functionality of the ""low to high"" sorting options .","1. Look for sorting options.                         2.Select ""low to high"" sorting option.              
+
+","","The ""Covid consultant "" category should have a ""low to high"" sorting option, and upon selecting it, doctors list should be rearranged with lowest cost doctor displayed first."
+"TC_CovidConsultation_04","TS_CovidConsultation_04","1.User should be on high to low","To validate the presence and functionality of the ""high to low"" sorting options .","1.Look for sorting options.                         2.Select ""high to low"" sorting option.             ","","The ""Covid consultant "" category should have a ""high to low"" sorting option, and upon selecting it, doctors list should be rearranged with highest cost doctor displayed first."
+"TC_CovidConsultation_05","TS_CovidConsultation_05","1.User should be on years on experience.","To validate  the presence and experinence of the doctor accordingly.","1.Look for sorting options.                         2.Select ""years of experience"" sorting option.            ","","The ""years of experience"" dropdown have a sorting option, and it would show the experience in the arranged list."
+"TC_CovidConsultation_06","TS_CovidConsultation_06","1.Users should check on the online consults checkbox.","To validate  the visibility and availability of the online doctors  .","1.Click the online consults checkbox.      ","","The ""online consults"" button would show the online doctor list available for booking."
+"TC_CovidConsultation_07","TS_CovidConsultation_07","1.Homepage should be accessible.
+2.Users should be able to check the digital consult .","To validate the availability of the booking for digital consult doctors.","1.Click on ""book digital consult"" button.
+2.Select the dates and slots.","2.23Feb
+6:00pm","The user should get re-directed to the schedule appointment page."
+"TC_CovidConsultation_08","TS_CovidConsultation_08","1.Homepage should be accessible.
+2.Users should be able to check the clinic visit .","To validate the availability of the booking for clinic visit doctors.","1.Click on ""book clinic visit"" button.
+2.Select the dates and slots for appointment.","2.26mar
+9:00pm","The user should get re-directed to the schedule appointment page."
+"TC_CovidConsultation_09","TS_CovidConsultation_09","1.Homepage should be accessible.
+2.Users should be able to request for digital consult. ","To validate the availability of the booking for the request for digital consult.","1.Click on ""request digital consult"".
+2. Select on patient name.
+3.Choose the prefered mode of appointment.
+4.Choose the prefered date range for appointment.","2.Suraj kumar
+3.Video consult
+4.Anytime","The user should get the request appointment page."
+"TC_CovidConsultation_10","TS_CovidConsultation_10","1. Homepage should be accessible
+2. Checkbox should be visible","To validate the functionality of ""Visit doctor""","1. Click on the check box
+2. Check the display list
+","","User should get the list of doctors according to the selected checkbox"
+"TC_CovidConsultation_11","TS_CovidConsultation_11","1.User should be on homepage 
+2.Filter button should be visible and accessible.","To validate  the functionality of ""filter"" button .","1.Click on filters button.                          2.Select the ""experience in years"".
+","","User should navigate the experience section by filter keyword."
+"TC_CovidConsultation_12","TC_CovidConsultation_12","1. User should be on homepage.
+2.Filter button should be visible.","To validate the functionality of the availability of ""filter"" section.","1.Click on filters button.                          2.Select the ""availability"".
+","1.Tomorrow","User should navigate the availability section by filter keyword."
+"TC_CovidConsultation_13","TS_CovidConsultation_13","1. User should be on homepage.
+2.Filter button should be visible.","To validate if its accepting the fees in rupees .","1.Click on filters button.
+2.Select the ""fees"".
+3.Select the options in fees.
+4.Click on apply filters.","2.100-500","User should navigate the fees section and can select the fees in rupees by filter section."
+"TC_CovidConsultation_14","TS_CovidConsultation_14","1. User should be on homepage.
+2.Filter button should be visible.","To validate the functionality and visibility of the gender section. ","1.Click on filters button. 
+2. Select the ""gender"".
+3.Select male/female.
+4.Click on apply filter","3.Female","User should navigate the gender section and can select the male or female section ."
+"TC_CovidConsultation_15","TS_CovidConsultation_15","1. User should be on homepage.
+2.Filter button should be visible.","To validate the functionality and visibility of the language section. ","1.Click on filters button.
+2.Select the language section.
+3.Select the options in language section from filters.
+4.Click on apply filter.","4.English","User should navigate the language section and can select the particular language."
+"TC_CovidConsultation_16","TS_CovidConsultation_16","1. User should be on homepage.
+2.Filter button should be visible.","To validate the functionality and visibility of the brands section.","1.Click on filters button.
+2.Select the brands section.
+3.Select the options in brand section from filters.
+4.Click on apply filter.","5.ApolloClinic","User should navigate the brand section and can select the particular brand."
+"TC_CovidConsultation_17","TS_CovidConsultation_17","1. User should be on homepage.
+2.Filter button should be visible.","To validate the functionality and visibility of the facility section.","1.Click on filters button.
+2.Select the facility section.
+3.Select the options in facility section from filters.
+4.Click on apply filter.","6.Hospital","User should navigate the facility section and can select the particluar facility."
+"TC_CovidConsultation_18","TS_CovidConsultation_18","1.User should be on homepage.","To validate the functionality of the location section.","1.Click on location.
+2.Select the cities.","","User should check the selected cities from the location keyword."
+"TC_CovidConsultation_19","TS_CovidConsultation_19","1.user should be on homepage.","To validate the functionality of apollo doctors.","1.Click on Apollo doctors.
+2.Select the apollo doctors.
+","","User should select the apollo doctors ."
+"TC_CovidConsultation_20","TS_CovidConsultation_20","1.user should be on homepage.","To validate if payment is successful.","1.Select the dates and slots .
+2.Click on continue.
+3.Enter the deatils
+4.Make the payment.","","User should select the dates and make the payment to book appointment."
+"TC_CovidConsultation_21","TS_CovidConsultation_21","1.User should be on homepage  .","To validate the search functionality of the doctors.","1.Click on search          2.Search the specific doctors according to specific choice.","1.Dr Alagesan Chandran A","Users should  view the particular doctors for their treatment ."
+"TC_CovidConsultation_22","TS_CovidConsultation_22","1.User should be on homepage.","To validate the search functionality of the specialities.","1.Click on search          2.Search the specific conditions according to specific choice.","","Users should view the particular specialities for their treatment ."
+"TC_CovidConsultation_23","TS_CovidConsultation_23","1.User should be on homepage.
+2.Search bar is visible.","To validate the search functionality of the conditions.","1.Click on search          2.Search the specific conditions according to specific choice.","","Users should view the particular conditions for their treatment ."
+"TC_CovidConsultation_24","TS_CovidConsultation_24","1.User should be on the doctor profile   .
+","To validate the  functionality of the circle cashback .","1.Click on circle cashback button.
+","","Users should view the re-directing of the doctor profile page."
+"TC_ConsultPhysician_25","TS_ConsultPhysician_1","1.User can access the homepage    .","To validate the dropdown menu for cities .","1.Click on the dropdown menu.
+2.Verify that the dropdown menu opens and displays a list of cities.","","Users should view the list of cities."
+"TC_ConsultPhysician_26","TS_ConsultPhysician_2","1.User can access the homepage    .","To validate the homepage displays the general physicians category.","1.Locate and click on the keyword ""General physicians"".
+2.Observe the navigation and page content.","","Clicking on the keyword ""General physician"" should directly navigate the user to ""online general physicians"" page."
+"TC_ConsultPhysician_27","TS_ConsultPhysician_3","1.sort option should be visible.","To validate that the presence and functionality of sort.","1.Click from the sort options.
+2.Click on nearby","","It should display the dropdown of nearby doctors."
+"TC_ConsultPhysician_28","TS_ConsultPhysician_4","1.User should be on homepage .
+2.Sort option should be visible.","To validate that the presence and functionality of sort.","1.Click from the sort options.
+2.Click on low to high","","It should display the dropdown of ""low to high"" doctors."
+"TC_ConsultPhysician_29","TS_ConsultPhysician_5","1.Users should be on homepage.","To validate that the presence and functionality of sort.","1.Click from the sort options.
+2.Click on high to low.","","It should display the dropdown of ""high to low"" doctors."
+"TC_ConsultPhysician_30","TS_ConsultPhysician_06","1.Users is on homepage .","To validate that the presence and functionality of sort.","1.Click from the sort options.
+2.Click on years of experience.","","Users should view the experience of the doctor list."
+"TC_ConsultPhysician_31","TS_ConsultPhysician_07","1.Users is on filter page.","To validate that the visibility and functionality of the filters section .","1.Click on filters button.                          2.Select the ""experience"" section in years.
+","","Users should select the experience keyword in years."
+"TC_ConsultPhysician_32","TS_ConsultPhysician_08","1.Users should be on filter .","To validate that the visibility and functionality of the filters section.","1.Click on filters button.                          2.Select the ""availability"" section in years.
+","1.Available","Users should select the availability keyword in the dates."
+"TC_ConsultPhysician_33","TS_ConsultPhysician_09","1.Users should be on the doctor profile page.","To validate that the visibility of languages spoken by the doctors are choosen properly.","1.Click on filter button
+2.Select the mode of languages spoken by the doctors accordingly.","1.English","Users should view the visibility of languages spoken by the doctors."
+"TC_ConsultPhysician_34","TS_ConsultPhysician_10","1.Users is on homepage only.","To validate that the ""fees"" functionality in rupees are choosen properly.","1.Click on filter button
+2.Select the fees in rupees .","","Users should view the fees of the doctor."
+"TC_ConsultPhysician_35","TS_ConsultPhysician_11","1.User is on homepage.","To validate that the ""gender"" functionality are choosen properly.","1.Click on filter button
+2.Select the gender.","","Users should  select the gender ."
+"TC_ConsultPhysician_36","TS_ConsultPhysician_12","1.Users should be on homepage .","To validate that the brands functionality are choosen properly.","1.Click on filter.
+2.Select the brands","2.Apollo Clinic","Users should select the brands from the pop-up window."
+"TC_ConsultPhysician_37","TS_ConsultPhysician_13","1.Users should be on homepage .","To validate that the facility functionality are choosen properly.","1.Click on filters.
+2.Select the facility","2.Hospital","User should select the facility from the button displayed in the window."
+"TC_ConsultPhysician_38","TS_ConsultPhysician_14","1.Users should be on homepage.","To validate the functionality of apollo doctors.","1.Click on Apollo doctors.
+2.Select the apollo doctors.
+","","User should select the apollo doctors ."
+"TC_ConsultPhysician_39","TS_ConsultPhysician_15","1.Users should be on homepage .","To validate the functionality of apollo doctors.","1.Select the dates and slots .
+2.Click on continue.
+3.Enter the deatils
+4.Make the payment.","","User should select the dates and make the payment to book appointment."
+"TC_ConsultPhysician_40","TS_ConsultPhysician_16","1.Users should be on homepage.","To validate the search button for the specific doctor ","1.Search for the doctor.
+2.Enter the name of the doctor.","2.Dr. Lidiya Priyadarshini S.","User should view the specific doctor for their treatment."
+"TC_ConsultPhysician_41","TS_ConsultPhysician_17","1.User should be on homepage.","To validate the search button for the specific specialities.","1.Search for the doctor.
+2.Enter the name of the specialists.","","User should view the specific specialists for their treatment."
+"TC_ConsultPhysician_42","TS_ConsultPhysician_18","1.User should be on homepage.","To validate the search button for the specific conditions.","1.Search for the doctor.
+2.Enter the name of the conditions.","","User should view the specific conditions for their treatment."
+"TC_ConsultPhysician_42","TS_ConsultPhysician_19","1.User should be on homepage.","To validate the functionality of the circle cashback.","1.Click on circle cashback button.
+","","User should re-directed to the doctor profile page."
+"TC_ConsultPhysician_43","TS_ConsultPhysician_20","1.User should be on homepage.","To validate the functionality of the checkout button.","1.Click on log out.","","User should return to the homepage."
